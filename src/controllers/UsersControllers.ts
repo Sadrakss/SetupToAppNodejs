@@ -1,7 +1,7 @@
-import { User } from "@models/User";
+import { User } from '@models/User'
 
 export class UsersControllers {
-    show(request, response) {
-        const user = new User();
-    }
+  show (request, response) {
+    const user = new User()
+  }
 }
